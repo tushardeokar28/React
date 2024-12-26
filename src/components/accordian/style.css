@@ -1,0 +1,23 @@
+.wrapper{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.accordian{
+    width:500px;
+}
+
+.item{
+    margin-bottom: 10px;
+    text-align:left;
+}
+
+.title{background:#ddd;}
+.title, .answer-wrapper{padding: 10px ;}
+.answer-wrapper{border:1px solid #ddd;}
+
+.wrapper button{margin-bottom: 10px;padding:5px;font-size:1em;}
